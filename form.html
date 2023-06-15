@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>GET IN TOUCH</h1>
+        <p>Have any questions or suggestions? Drop us a message</p>
+        <form id="submit-form" method="post" action="https://script.google.com/macros/s/AKfycbzfeNpqRu3R4nbg3QNT4cCv8JdSkd4WarvGgkf9CIV-XwEdlCJv9icmZoKobLyO1fN1Pw/exec">
+            <div class="row">
+                <div class="column">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name here">
+                </div>
+                <div class="column">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Your email here">
+                </div>
+            </div>
+            <div class="row" id="sel">
+                <div class="column">
+                    <label id="pro" for="product">Product</label>
+                <select id="country" name="product">
+                    <option value="australia">Tata</option>
+                    <option value="canada">Renault</option>
+                    <option value="usa">Royal Enfield</option>
+                    <option value="usa">Mahindra</option>
+                    <option value="usa">Mahindra Electric Auto</option>
+                    <option value="usa">Hero</option>
+                  </select>
+                </div>
+
+
+
+
+                <div class="column">
+                    <label for="contact" >Contact Number</label>
+                    <input type="tel" id="contact" name="mobile-no" placeholder="Your phone number here" required>
+                </div>
+            </div>
+            <div class="row" id="mes">
+                <div class="column">
+                    <label for="issue" name="message">Message (Optional)</label>
+                    <textarea id="issue" placeholder="Message" rows="3"></textarea>
+                </div>
+            </div>
+
+
+            <input type="submit" value="Submit" id="submit"/>
+
+
+        </form>
+    </div>
+</body>
+</html>
