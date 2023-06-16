@@ -755,6 +755,7 @@ html {
     justify-content: center;
     background: #e7e7e7;
     transition: opacity 0.75s, visibility 0.75s;
+        z-index: 4;
   }
   
   .loader--hidden {
@@ -792,6 +793,7 @@ html {
     border-top-color:#16436f ;
     border-radius: 50%;
     animation: loading 0.75s ease infinite;
+          z-index: 4;
   }
   }
   
